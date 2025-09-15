@@ -27,6 +27,32 @@ print(str[:10])'''
 print(str[-1:-5])
 print(str[-5:-1]) '''
 
+# functions
+
+#str = "i am starting python from Today"
+#print(str.endswith("today"))
+#str=str.capitalize()
+#print(str)
+#print(str.replace("Today","tomorrow"))
+#print(str.count("t"))
+#print(str.find("python"))
+
+#practice
+
+'''str ="nabin Damase"
+print(length of given anme)
+print(len(str))'''
+
+
+#str = "Hi,$I am the $ symbol $99.88"
+#print(str.count("$"))
+
+
+
+
+
+
+
 
 
 
