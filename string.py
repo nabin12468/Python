@@ -41,11 +41,12 @@ print(str[-5:-1]) '''
 
 '''str ="nabin Damase"
 print(length of given anme)
-print(len(str))'''
+print(len(str))
 
 
 #str = "Hi,$I am the $ symbol $99.88"
-#print(str.count("$"))
+#print(str.count("$"))'''
+
 
 
 
