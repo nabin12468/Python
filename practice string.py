@@ -1,4 +1,4 @@
-import random
+'''import random
 
 print("🎯 Welcome to the Guess the Number Game!")
 number = random.randint(1, 100)
@@ -14,4 +14,14 @@ while True:
         print("Too high! Try again ⬆️")
     else:
         print(f"🎉 Correct! The number was {number}. You guessed it in {attempts} tries!")
-        break
+        break'''
+def fibonacci():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+fib = fibonacci()
+for _ in range(10):
+    print(next(fib))
+
