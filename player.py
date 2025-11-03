@@ -2,14 +2,22 @@ import math
 import random 
 class Player:
     def __init__(self, letter):
-        self.name = letter
-        self.score = 0
+        self.letter = letter
+        
 
-    def update_score(self, points):
-        self.score += points
+    def get_move(self, game):
+        pass
 
-    def get_score(self):
-        return self.score
+class RandomComputerPlayer(Player):
+    def __init__(self, letter):
+        super().__init__(letter)
 
-    def greet(self):
-        print(f"Hello, {self.name}! Your current score is {self.score}.")
+    def get_move(self, game):
+        pass
+
+    class HumanPlayer(Player):
+     def __init__(self, letter):
+        super().__init__(letter)
+
+    def get_move(self, game):
+        pass
