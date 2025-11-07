@@ -1,3 +1,5 @@
+# TicTacToe game implementation
+
 class TicTacToe:
  def __init__(self):
         self.board = [' ' for _ in range(9)]  # A list to hold the board state
