@@ -29,6 +29,15 @@ def empty_squares(self):
          return ' ' in self.board
 def num_empty_squares(self):
             return self.board.count(' ')
+def make_move(self,square,letter):
+         # if valid move, then make the move (assign square to letter)
+         # then return true. if invalid, return false
+         if self.board[square] == ' ':
+             self.board[square] = letter
+             if self.winner(square, letter):
+                 self.current_winner = letter
+             return True
+         return False
 
 
 
@@ -45,6 +54,19 @@ def play (game,x_player,o_player,print_game=True):
              square = o_player.get_move(game)
          else:
              square = x_player.get_move(game)
+
+         if game.make_move(square, letter):
+                 if print_game:
+                     print(letter + f' makes a move to square {square}')
+                     game.print_board()
+                     print('')  # just empty line
+
+                 if game.current_winner:
+                     if print_game:
+                         print(letter + ' wins!')
+                     return letter  # ends the loop and exits the game
+                 # after we made our move, we need to alternate letters
+                 letter = 'O' if letter == 'X' else 'X'  # switches player
 
 
         
