@@ -39,7 +39,11 @@ def make_move(self,square,letter):
              return True
          return False
 
-
+def winner(self,square,letter):
+  # check the row
+  # check the column
+  row_ind = square // 3
+  row = self.board[row_ind*3:(row_ind+1)*3]   
 
 def play (game,x_player,o_player,print_game=True):
      if print_game:
@@ -67,6 +71,10 @@ def play (game,x_player,o_player,print_game=True):
                      return letter  # ends the loop and exits the game
                  # after we made our move, we need to alternate letters
                  letter = 'O' if letter == 'X' else 'X'  # switches player
+                 if print_game:
+                   print('It\'s a tie!')
+
+
 
 
         
