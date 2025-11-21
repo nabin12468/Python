@@ -47,10 +47,6 @@ def winner(self,square,letter):
   if all([spot == letter for spot in row]):
       return True 
 
-# check column
-  col_ind = square % 3
-  column = [self.board[col_ind+i*3] for i in range(3)]
-
 
 
 
