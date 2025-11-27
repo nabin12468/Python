@@ -39,11 +39,14 @@ def make_move(self,square,letter):
              return True
          return False
 
+def winner(self,square,letter):
+  # check the row
+  # check the column
+  row_ind = square // 3
+  row = self.board[row_ind*3:(row_ind+1)*3] 
+  if all([spot == letter for spot in row]):
+      return True 
 
-
-# check column
-  col_ind = square % 3
-  column = [self.board[col_ind+i*3] for i in range(3)]
 
 
 
