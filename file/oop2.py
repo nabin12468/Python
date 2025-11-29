@@ -128,10 +128,7 @@ class Student:
               self.percentage = str(self.phy+self.chem+self.math)/3 +"%"
 
               
-@property
-def percentage(self):
-              return str(self.phy+self.chem+self.math)/3 +"%"
-
+@
               stu1 = Student(98,96,99)
               print(stu1.percentage)
 
