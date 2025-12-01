@@ -111,21 +111,13 @@ class Person:
     def changeName(cls,name):
         cls.name = name
 
-        p1 = Person()
-        p1.changeName("nabin damase")
-        print(p1.name)
-        print(Person.name)
-
+       
       #property
        
        
 class Student:
 
-       def __init_(self,phy,chem,math):
-              self.phy = phy
-              self.chem = chem
-              self.math = math
-              self.percentage = str(self.phy+self.chem+self.math)/3 +"%"
+       
 
               
 @property
