@@ -111,7 +111,11 @@ class Person:
     def changeName(cls,name):
         cls.name = name
 
-       
+        p1 = Person()
+        p1.changeName("nabin damase")
+        print(p1.name)
+        print(Person.name)
+
       #property
        
        

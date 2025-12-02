@@ -26,8 +26,6 @@ os.remove("file.txt")'''
 
 #practice
 
-#check the word in the file or not
-
 
 def  check_for_word():
 word ="learning"
