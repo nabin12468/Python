@@ -26,9 +26,11 @@ os.remove("file.txt")'''
 
 #practice
 
+#check the word in the file or not
+
 
 def  check_for_word():
-word ="learning"
+ word ="learning"
 with open("file.txt","r") as f:
     data=f.read()
     
@@ -51,7 +53,6 @@ with open("file.txt","r") as f:
 
                     return -1
                print(check_for_line())
-
 
 
 

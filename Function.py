@@ -110,14 +110,6 @@ def sum (n):
 print(sum(5))
 #write a recursive function to print all elememnts in a list.
 
-def print_list(list, i):
-    if(i==len(list)):
-        return
-    print(list[i])
-    print_list(list,i+1)
-    fruits=["apple","banana","mango","grapes"]
-
-print_list(fruits)'''
 
 
 
