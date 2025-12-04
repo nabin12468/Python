@@ -41,15 +41,6 @@ S1 = Student("karan",90)
 print(S1.name)
 
 #methods in class
-class Student:
-        
-        college_name = "ABC college"  #class attribute
-        name="anonymous"   #instance attribute
-def __init__(self, name,marks):
-        self.name = name
-        self.marks = marks
-       
-        print("hello my name is nabin damase")
 
 
 def hello(self):
