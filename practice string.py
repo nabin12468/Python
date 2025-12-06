@@ -21,7 +21,3 @@ def fibonacci():
         yield a
         a, b = b, a + b
 
-fib = fibonacci()
-for _ in range(10):
-    print(next(fib))
-
