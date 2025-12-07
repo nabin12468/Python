@@ -28,6 +28,7 @@ print(str[-1:-5])
 print(str[-5:-1]) '''
 
 # functions
+'''str = "this is string"
 
 #str = "i am starting python from Today"
 #print(str.endswith("today"))
