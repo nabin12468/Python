@@ -72,8 +72,7 @@ def start(self):
     self.acc=True
     print("car started")
 
- car1 = car()
- car1.start()'''
+ 
 
 # practice
 
