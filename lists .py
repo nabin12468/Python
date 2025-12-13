@@ -37,15 +37,7 @@ print(marks)'''
 
 
 #Tuples
-'''tup = (1,2,3,4,5)
-print(type(0))
 
-print(tup[0])
-
-#tuples methods
-tup = (1,2,3,4,5,3,3)
-print(tup.count(3))
-print(tup.index(4))'''
 
 
 #practice
