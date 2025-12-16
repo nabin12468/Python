@@ -1,9 +1,6 @@
 #file handling
 
-'''f = open("file.txt", "r")
-data=f.readline()
-print(data)
-f.close()
+'''
 
 f=open("file.txt","a")
 
