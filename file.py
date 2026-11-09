@@ -22,7 +22,7 @@ with open("file.txt","r") as f:
         #delete file
 
 import os
-
+os.remove("file.txt")'''
 
 #practice
 
