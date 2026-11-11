@@ -57,13 +57,31 @@ def calc_sum(B=12,A="19"):
     calc_sum(B="10")
 
 
+amount = 100 #global variable
   
 def calc_sum(num,price,tax):
-    price_n = num*tax
+    amount = 100  #local variable
+    price_n = num*amount
     final_tax = price_n-num
 
     print("total", final_tax)
 
 calc_sum(10,20,30)
 
+
+amount
+
 '''
+
+
+def hey(a, b):
+
+    print(a+b)
+
+    hey(5, 10)
+
+    def hey_return(a, b):
+        return a + b
+
+    result = hey_return(5, 10)
+    print(result)
