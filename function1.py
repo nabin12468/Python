@@ -85,3 +85,4 @@ def hey(a, b):
 
     result = hey_return(5, 10)
     print(result)
+    print(result)
