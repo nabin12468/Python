@@ -71,7 +71,7 @@ calc_sum(10,20,30)
 
 amount
 
-'''
+
 
 
 def hey(a, b):
@@ -86,3 +86,14 @@ def hey(a, b):
     result = hey_return(5, 10)
     print(result)
     print(result)
+'''
+
+def double(num):
+    return num * 2
+
+result = double(5)
+
+
+total = double(10) + double(20)
+
+print("Total:", total, "Result:", result)
