@@ -96,4 +96,4 @@ result = double(5)
 
 total = double(10) + double(20)
 
-print("Total:", total, "Result:", result)
+print("Total:", total, "Result:", result) ''''''
